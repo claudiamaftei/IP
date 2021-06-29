@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{229AC797-79B2-45D4-9089-B3A06E3D6E21}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ConcreteQuizzFactoryy</RootNamespace>
+    <AssemblyName>ConcreteQuizzFactoryy</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConcreteQuizzFactory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Artss\Artss.csproj">
+      <Project>{676b8090-09b6-4dfa-bf3b-f6aca0a99510}</Project>
+      <Name>Artss</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Chemistryy\Chemistryy.csproj">
+      <Project>{271d05d2-cb0b-43d7-8746-9db8c3fa85d6}</Project>
+      <Name>Chemistryy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Domainn\Domainn.csproj">
+      <Project>{342137d5-c538-4f01-9981-b8ea0f95f283}</Project>
+      <Name>Domainn</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Historyy\Historyy.csproj">
+      <Project>{4dc23027-5c73-4c58-baf7-5c5cfbf3d3da}</Project>
+      <Name>Historyy</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ITT\ITT.csproj">
+      <Project>{083c49df-1e0f-4e87-b44d-8b4581b9fb2e}</Project>
+      <Name>ITT</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuizzFactoryy\QuizzFactoryy.csproj">
+      <Project>{e4ffa588-522e-4c0c-8a70-8566c5c64ff8}</Project>
+      <Name>QuizzFactoryy</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
