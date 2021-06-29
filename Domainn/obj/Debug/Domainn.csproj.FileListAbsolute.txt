@@ -1,0 +1,6 @@
+D:\IP-proiect\Proiect Final-IP\IPQuiz-master\quizz\Domainn\bin\Debug\Domainn.dll
+D:\IP-proiect\Proiect Final-IP\IPQuiz-master\quizz\Domainn\bin\Debug\Domainn.pdb
+D:\IP-proiect\Proiect Final-IP\IPQuiz-master\quizz\Domainn\obj\Debug\Domainn.csprojAssemblyReference.cache
+D:\IP-proiect\Proiect Final-IP\IPQuiz-master\quizz\Domainn\obj\Debug\Domainn.csproj.CoreCompileInputs.cache
+D:\IP-proiect\Proiect Final-IP\IPQuiz-master\quizz\Domainn\obj\Debug\Domainn.dll
+D:\IP-proiect\Proiect Final-IP\IPQuiz-master\quizz\Domainn\obj\Debug\Domainn.pdb
